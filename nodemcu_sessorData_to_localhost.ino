@@ -7,7 +7,7 @@ const char* ssid = "Redmi11";
 const char* password = "12345678";
 
 // Server URL
-const char* serverUrl = "http://192.168.0.100:3000/api/sendData";
+const char* serverUrl = "http://192.168.0.193:3000/api/sendData";
 const int sensor_pin = A0;
 
 // Create JSON document
