@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const DataDisplay = () => {
+  console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)
   const [data, setData] = useState([]);
   console.log(data)
 
@@ -27,6 +28,7 @@ const DataDisplay = () => {
 
   return (
     <div className={'d-flex justify-content-center'}>
+
       <table className={"mainTable"}>
         <thead>
           <tr>
