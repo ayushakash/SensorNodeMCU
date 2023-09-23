@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const DataDisplay = () => {
-  console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)
+  console.log(data) console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)console.log(data)
   const [data, setData] = useState([]);
+  console.log(data)console.log(data)console.log(data)
   console.log(data)
+  console.log(data)console.log(data)console.log(data)
 
   useEffect(() => {
     const interval = setInterval(() => {
+      
       axios.get('http://localhost:3000/api/getData')
         .then(res => {
           console.log(data)
