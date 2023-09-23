@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+console.log("changes in feature 1")
+console.log("changes in feature 2")
 const DataDisplay = () => {
   const [data, setData] = useState([]);
   console.log(data)
@@ -24,8 +26,29 @@ const DataDisplay = () => {
     }, 2000);
     return () => clearInterval(interval);
   }, []);
+console.log("feature 3")
+  
 
-  return (
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return (
     <div className={'d-flex justify-content-center'}>
       <table className={"mainTable"}>
         <thead>
